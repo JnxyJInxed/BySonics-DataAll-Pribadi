@@ -21,4 +21,4 @@ const dataSchema = mongoose.Schema({
 
 
 
-module.exports = mongoose.model('DataSensor/DataEKG', dataSchema);
+module.exports = mongoose.model('DataEKG', dataSchema);

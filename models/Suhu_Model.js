@@ -21,4 +21,4 @@ const dataSchema = mongoose.Schema({
 
 
 
-module.exports = mongoose.model('DataSensor/DataSuhu', dataSchema);
+module.exports = mongoose.model('DataSuhu', dataSchema);

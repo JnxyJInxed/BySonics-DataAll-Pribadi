@@ -44,4 +44,4 @@ const dataSchema = mongoose.Schema({
 
 
 
-module.exports = mongoose.model('DataSensor/DataAllSensor', dataSchema);
+module.exports = mongoose.model('DataAllSensor', dataSchema);

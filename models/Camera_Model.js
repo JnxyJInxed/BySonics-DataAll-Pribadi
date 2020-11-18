@@ -21,4 +21,4 @@ const dataSchema = mongoose.Schema({
 
 
 
-module.exports = mongoose.model('DataSensor/DataImage', dataSchema);
+module.exports = mongoose.model('DataImage', dataSchema);
