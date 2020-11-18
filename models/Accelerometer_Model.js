@@ -27,4 +27,4 @@ const dataSchema = mongoose.Schema({
 
 
 
-module.exports = mongoose.model('DataAccelerometer', dataSchema);
+module.exports = mongoose.model('DataSensor/DataAccelerometer', dataSchema);

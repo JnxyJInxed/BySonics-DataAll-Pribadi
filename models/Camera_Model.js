@@ -14,11 +14,11 @@ const dataSchema = mongoose.Schema({
         type : String
     },
     //id_pasien, bukan nama, kemungkinana ambil dari _id mongoose
-    dataEKG : { 
-        type : [Number]
+    dataImage : { 
+        type : [[Number]]
     }
 }, {timestamps: true})
 
 
 
-module.exports = mongoose.model('DataSensor/DataEKG', dataSchema);
+module.exports = mongoose.model('DataSensor/DataImage', dataSchema);

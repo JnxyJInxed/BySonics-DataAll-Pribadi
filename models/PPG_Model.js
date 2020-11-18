@@ -21,4 +21,4 @@ const dataSchema = mongoose.Schema({
 
 
 
-module.exports = mongoose.model('DataPPG', dataSchema);
+module.exports = mongoose.model('DataSensor/DataPPG', dataSchema);

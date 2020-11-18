@@ -14,11 +14,34 @@ const dataSchema = mongoose.Schema({
         type : String
     },
     //id_pasien, bukan nama, kemungkinana ambil dari _id mongoose
+    //accelerometer
+    dataAccelerometer_X : { 
+        type : [Number]
+    },
+    dataAccelerometer_Y : { 
+        type : [Number]
+    },
+    dataAccelerometer_Z : { 
+        type : [Number]
+    },
+    //suhu
+     dataSuhu : { 
+        type : [Number]
+    },
+    //ekg
     dataEKG : { 
+        type : [Number]
+    },
+    //ppg
+    dataPPG : { 
+        type : [Number]
+    },
+    //emg
+    dataEMG : { 
         type : [Number]
     }
 }, {timestamps: true})
 
 
 
-module.exports = mongoose.model('DataSensor/DataEKG', dataSchema);
+module.exports = mongoose.model('DataSensor/DataAllSensor', dataSchema);
